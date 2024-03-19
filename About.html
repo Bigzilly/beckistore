@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BECKIS STORE</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="https://fonts.googleeapis.com/css2?family=poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+
+
+      <div class="header">
+      <div class="container">
+            <div class="navbar">
+                  <div class="logo">
+                    <a href="Index.html"><img src="IMAGE\LOGO.JPG" width="125px"></a>
+                  </div>
+                  <nav>
+                   <UL id="MenuItems">
+                         <li><a href="Index.html">HOME</a></li>
+                         <li><a href="Product.html">PRODUCT</a></li>
+                         <li><a href="About.html">ABOUT</a></li>
+                         <li><a href="Contact.html">CONTACT</a></li>
+                         <li><a href="account.html">ACCOUNT</a></li>
+                   </UL>
+                  </nav>
+                  <img src="IMAGE\menu.png.svg" class="menu-icon" onclick="menutoggle()">
+            </div>
+      </div>
+</div>
+    <section>
+        <h2>Our Story</h2>
+        <P>Welcome to BECKIS STORE, Where Innovation Meets Convenience! 
+            <br>Are you ready to revolutionize your shopping journey? <br>Prepare to embark on an extraordinary adventure through our vast digital marketplace, where every click unveils a world of endless possibilities!
+            <br>From cutting-edge electronics to gourmet foodstuffs and exquisite furniture pieces, we've meticulously curated an unparalleled selection just for you. Whether you're upgrading your tech arsenal, indulging your taste buds, or elevating your living space, we've got you covered!
+        </P>
+        <br>
+        <H2>What Sets Us Apart?</H2>
+            
+            <p>
+                1. Explore an extensive array of top-tier products across multiple categories, ensuring there's something for every need and desire.
+               <br>
+               <br>2. Rest easy knowing that each item on our platform undergoes rigorous quality checks to guarantee supreme performance and durability.
+               <br>
+               <br>3. Say goodbye to hassle-filled shopping experiences! Our user-friendly interface and intuitive navigation make finding and purchasing your favorites a breeze.
+               <br>
+               <br>4. Enjoy access to exclusive discounts and promotions that you won't find anywhere else, because you deserve nothing but the best at unbeatable prices!
+               <br>
+               <br>5. Service: Our dedicated support team is here to assist you every step of the way, ensuring your satisfaction remains our top priority.
+           </P>
+    </section>
+
+    <div class="col-2"> 
+        <img src="IMAGE\woman-holding-shopping-bags.jpg">
+   </div>
+    <div class="footer">
+        <div class="container">
+              <div class="row">
+                    <div class="footer-col-1">
+                          <h3>Download our App[Coming Soon !]</h3>
+                          <p>Download App for Andriod and IOS mobile phone</p>
+                          <div class="app-logo">
+                                <img src="IMAGE\play store.png">
+                                <img src="IMAGE\app store.png">
+                            </div>
+                    </div>
+                    <div class="footer-col-2">
+                          <a href="Index.html"><img src="IMAGE\LOGO.JPG"></a>
+                          <p>Our purpose is to sustainably satisfy the needs of our users.</p>
+                    </div>
+                    <div class="footer-col-3">
+                          <h3>Useful Links</h3>
+                          <ul>
+                                <li>Coupons</li>
+                                <li>Blog post</li>
+                                <li>Return Policy</li>
+                                <li>Join Affiliate</li>
+                          </ul>
+                    </div>
+                    <div class="footer-col-4">
+                          <h3>Follow us</h3>
+                          <ul>
+                                <li><a href="Contact.html">Facebook</a></li>
+                                <li><a href="Contact.html">Telegram</a></li>
+                                <li><a href="Contact.html">Instagram</a></li>
+                                <li><a href="Contact.html">X</a></li>
+                          </ul>
+                    </div>
+              </div>
+              <hr>
+              <P class="Copyright">Copyright 2024 - BECKIS STORE</P>
+        </div>
+  </div>
+
+
+  <script>
+       var Menuitems = document.getElementById("MenuItems");
+       
+       MenuItems.style.maxHeight = "0px";
+
+
+       function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+             {
+                 MenuItems.style.maxHeight = "200px";
+             }
+           else
+              {
+                 MenuItems.style.maxHeight = "0px";
+
+              }
+        }
+  </script>
+</body>
+</html>

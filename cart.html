@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CART</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="https://fonts.googleeapis.com/css2?family=poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+
+
+    
+      <div class="container">
+            <div class="navbar">
+                  <div class="logo">
+                   <a href="Index.html"><img src="IMAGE\LOGO.JPG" width="125"></a>
+                  </div>
+                  <nav>
+                   <UL id="MenuItems">
+                         <li><a href="Index.html">HOME</a></li>
+                         <li><a href="Product.html">PRODUCT</a></li>
+                         <li><a href="About.html">ABOUT</a></li>
+                         <li><a href="Contact.html">CONTACT</a></li>
+                         <li><a href="account.html">ACCOUNT</a></li>
+                  </UL>
+                  </nav>
+                  <IMg src="IMAGE\menu.png.svg" class="menu-icon" onclick="menutoggle()">
+            </div> 
+        </div>
+                 
+ 
+ <div class="small-container cart-page">
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+              <div class="Cart-Info">
+                    <img src="IMAGE\HARD DISK.jpg">
+                <div>
+                    <P>External Hard Drive 1T</P>
+                    <small>Price GHC140</small>
+                    <a href="">Remove</a>
+                </div>
+             </div>
+        
+            </td>
+            <td><input type="number" value="1"></td>
+            <Td>Ghc140.00</Td>
+        </tr>
+        <tr>
+            <td>
+              <div class="Cart-Info">
+                    <img src="IMAGE\laptop mini.jpg">
+                <div>
+                    <P>HP mini laptop</P>
+                    <small>Price GHC2140</small>
+                    <a href="">Remove</a>
+                </div>
+             </div>
+        
+            </td>
+            <td><input type="number" value="1"></td>
+            <Td>Gh2140.00</Td>
+        </tr>
+        <tr>
+            <td>
+              <div class="Cart-Info">
+                    <img src="IMAGE\IPHONE 15 PRO MAX.jpg">
+                <div>
+                    <P>Iphone 15 Pro Max 1T</P>
+                    <small>Price GHC14,400</small>
+                    <a href="">Remove</a>
+                </div>
+             </div>
+        
+            </td>
+            <td><input type="number" value="1"></td>
+            <Td>Ghc14,400.00</Td>
+        </tr>
+        <tr>
+            <td>
+              <div class="Cart-Info">
+                    <img src="IMAGE\series 7.jpg">
+                <div>
+                    <P>Apple Series 7</P>
+                    <small>Price GHC4,000</small>
+                    <a href="">Remove</a>
+                </div>
+             </div>
+        
+            </td>
+            <td><input type="number" value="1"></td>
+            <Td>Ghc4,000.00</Td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>GHC16,680</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>GHC1000</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>GHC21,680</td>
+            </td>
+        </table>
+    </div>
+
+ </div>
+
+            <div class="footer">
+                  <div class="container">
+                        <div class="row">
+                         <div class="footer-col-1">
+                                    <h3>Download our App[Coming Soon !]</h3>
+                                    <p>Download App for Andriod and IOS mobile phone</p>
+                                    <div class="app-logo">
+                                          <img src="IMAGE\play store.png">
+                                          <img src="IMAGE\app store.png">
+
+                                    </div>
+                            </div>
+                              <div class="footer-col-2">
+                                <a href="Index.html"><img src="IMAGE\LOGO.JPG"></a>
+                                    <p>Our purpose is to sustainably satisfy the needs of our users.</p>
+                              </div>
+                              <div class="footer-col-3">
+                                    <h3>Useful Links</h3>
+                                    <ul>
+                                          <li>Coupons</li>
+                                          <li>Blog post</li>
+                                          <li>Return Policy</li>
+                                          <li>Join Affiliate</li>
+                                    </ul>
+                              </div>
+                              <div class="footer-col-4">
+                                <h3>Follow us</h3>
+                                <ul>
+                                      <li><a href="Contact.html">Facebook</a></li>
+                                      <li><a href="Contact.html">Telegram</a></li>
+                                      <li><a href="Contact.html">Instagram</a></li>
+                                      <li><a href="Contact.html">X</a></li>
+                                </ul>
+                          </div>
+                        </div>
+                        <hr>
+                        <P class="Copyright">Copyright 2024 - BECKIS STORE</P>
+                  </div>
+            </div>
+            <script>
+                var Menuitems = document.getElementById("MenuItems");
+                
+                MenuItems.style.maxHeight = "0px";
+
+
+                function menutoggle(){
+                   if(MenuItems.style.maxHeight == "0px")
+                      {
+                          MenuItems.style.maxHeight = "200px";
+                      }
+                    else
+                       {
+                          MenuItems.style.maxHeight = "0px";
+
+                       }
+                }
+           </script>
+            
+</body>
+</html>
+
+
+    

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BECKIS STORE</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="https://fonts.googleeapis.com/css2?family=poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body> 
+
+
+      <div class="header">
+      <div class="container">
+            <div class="navbar">
+                  <div class="logo">
+                    <a href="Index.html"><img src="IMAGE\LOGO.JPG" width="125px"></a>
+                  </div>
+                  <nav>
+                   <UL id="MenuItems">
+                         <li><a href="Index.html">HOME</a></li>
+                         <li><a href="Product.html">PRODUCT</a></li>
+                         <li><a href="About.html">ABOUT</a></li>
+                         <li><a href="Contact.html">CONTACT</a></li>
+                         <li><a href="account.html">ACCOUNT</a></li>
+                   </UL>
+                  </nav>
+                  <img src="IMAGE\menu.png.svg" class="menu-icon" onclick="menutoggle()">
+            </div>
+      </div>
+
+</div> 
+
+<style>
+      form{
+            width: 90%;
+            margin: auto;
+
+      }
+
+      form input,
+      form textarea{
+            margin-left: 25%;
+            width: 50%;
+            resize: none;
+            font-size: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+
+      }
+
+      button{
+            font-size: 20px;
+            padding: 8px;
+            border-radius: 10px;
+            width: 25%;
+            margin: 20px;
+            margin-left: 450px;
+            background-color: #ff523b;
+            color:white;
+            border: none;
+      }
+
+      button:hover{
+            border: #ff523b 1px solid;
+            color: #ff523b;
+            background-color: transparent;
+            transition: 0.9s;
+      }
+</style>
+      
+
+<div class="form">
+      <form action="">
+            <input type="text" placeholder="Full Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="text" placeholder="Phone Number"><br>
+            <textarea cols="30" rows="10" placeholder="Enter Your Message"></textarea><br>
+            <button>Submit</button>
+      </form>
+</div>
+
+
+    <div class="footer">
+        <div class="container">
+              <div class="row">
+                    <div class="footer-col-1">
+                          <h3>Download our App[Coming Soon !]</h3>
+                          <p>Download App for Andriod and IOS mobile phone</p>
+                          <div class="app-logo">
+                                <img src="IMAGE\play store.png">
+                                <img src="IMAGE\app store.png">
+                            </div>
+                    </div>
+                    <div class="footer-col-2">
+                          <a href="Index.html"><img src="IMAGE\LOGO.JPG"></a>
+                          <p>Our purpose is to sustainably satisfy the needs of our users.</p>
+                    </div>
+                    <div class="footer-col-3">
+                          <h3>Useful Links</h3>
+                          <ul>
+                                <li>Coupons</li>
+                                <li>Blog post</li>
+                                <li>Return Policy</li>
+                                <li>Join Affiliate</li>
+                          </ul>
+                    </div>
+                    <div class="footer-col-4">
+                          <h3>Follow us</h3>
+                          <ul>
+                                <li><a href="Contact.html">Facebook</a></li>
+                                <li><a href="Contact.html">Telegram</a></li>
+                                <li><a href="Contact.html">Instagram</a></li>
+                                <li><a href="Contact.html">X</a></li>
+                          </ul>
+                    </div>
+              </div>
+              <hr>
+              <P class="Copyright">Copyright 2024 - BECKIS STORE</P>
+        </div>
+  </div>
+
+
+  <script>
+       var Menuitems = document.getElementById("MenuItems");
+       
+       MenuItems.style.maxHeight = "0px";
+
+
+       function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+             {
+                 MenuItems.style.maxHeight = "200px";
+             }
+           else
+              {
+                 MenuItems.style.maxHeight = "0px";
+
+              }
+        }
+  </script>
+</body>
+</html>
